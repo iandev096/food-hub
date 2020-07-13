@@ -80,12 +80,12 @@ export const BottomTabs: React.FC<BottomTabsProps> = ({ navigation }) => {
         })}
         name='Orders' component={OrdersTopTabs}
       />
-      <BottomTabsNavigator.Screen listeners={
+      {/* <BottomTabsNavigator.Screen listeners={
         ({ route, navigation }) => ({
           focus: e => setHeader('Offers')
         })}
         name='Offers' component={OffersScreen}
-      />
+      /> */}
       <BottomTabsNavigator.Screen listeners={
         ({ route, navigation }) => ({
           focus: e => setHeader('Account')
